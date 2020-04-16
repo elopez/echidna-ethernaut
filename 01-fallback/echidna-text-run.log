@@ -1,0 +1,15 @@
+Analyzing contract: <PATH>/01-fallback/test.sol:Test
+[PayableInfo ("Test",["contribute()","()","constructor()"]),PayableInfo ("Fallback",["contribute()","()"]),ConstantFunctionInfo ("Test",["getContribution()","contributions(address)","owner()"]),ConstantFunctionInfo ("Fallback",["getContribution()","contributions(address)","owner()"])]
+echidna_test_owner: failed!💥  
+  Call sequence:
+    contribute() Value: 0x1
+    *fallback*() Value: 0x1
+
+echidna_test_balance: failed!💥  
+  Call sequence:
+    contribute() Value: 0x1
+    *fallback*() Value: 0x1
+    withdraw()
+
+
+Seed: -5326692215904020287
