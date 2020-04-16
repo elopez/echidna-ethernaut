@@ -1,0 +1,8 @@
+Analyzing contract: <PATH>/05-token/test.sol:Test
+[ConstantFunctionInfo ("Token",["balanceOf(address)","totalSupply()"]),ConstantFunctionInfo ("Test",["balanceOf(address)","totalSupply()"])]
+echidna_test_balance: failed!💥  
+  Call sequence:
+    transfer(0x0,21)
+
+
+Seed: 3885938737553368213
