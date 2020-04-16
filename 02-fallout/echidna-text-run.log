@@ -1,0 +1,8 @@
+Analyzing contract: <PATH>/02-fallout/test.sol:Test
+[PayableInfo ("Test",["Fal1out()","allocate()"]),PayableInfo ("Fallout",["Fal1out()","allocate()"]),ConstantFunctionInfo ("Test",["allocatorBalance(address)","owner()"]),ConstantFunctionInfo ("Fallout",["allocatorBalance(address)","owner()"])]
+echidna_test_owner: failed!💥  
+  Call sequence:
+    Fal1out()
+
+
+Seed: 1307978322216620243
