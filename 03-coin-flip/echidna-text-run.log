@@ -1,0 +1,30 @@
+Analyzing contract: <PATH>/03-coin-flip/test.sol:Test
+[ConstantFunctionInfo ("CoinFlip",["consecutiveWins()"]),ConstantFunctionInfo ("Test",["consecutiveWins()"])]
+echidna_test_flip: failed!💥  
+  Call sequence:
+    flip(false) Gas price: 0x4029322e8 Time delay: 0x1d406 Block delay: 0x6d5a
+    flip(false) Gas price: 0x58723465b Time delay: 0x909a8 Block delay: 0x92ff
+    flip(false) Gas price: 0x45877efc2 Time delay: 0x509ca Block delay: 0x39d4
+    flip(false) Gas price: 0x1fc4f4fcb Time delay: 0x6397b Block delay: 0x1d5f
+    flip(false) Time delay: 0x7104b Block delay: 0xb0d4
+    flip(false) Gas price: 0x2f1cc5470 Time delay: 0x4619a Block delay: 0x3533
+    flip(true) Gas price: 0x36c84d34d Time delay: 0x1fd70 Block delay: 0xd82b
+    flip(false) Time delay: 0x925b5 Block delay: 0x9d19
+    flip(false) Gas price: 0x2d80bcdd9 Time delay: 0x927df Block delay: 0x1db
+    flip(false) Gas price: 0x68c728f12 Time delay: 0x115b1 Block delay: 0x3a86
+    flip(false) Gas price: 0xf2e517c5d Time delay: 0x1831a Block delay: 0xa2f9
+    flip(false) Gas price: 0x691bcdbc2 Time delay: 0xe209 Block delay: 0x32
+    flip(false) Gas price: 0x777a22a8c Time delay: 0x77bd0 Block delay: 0x48b9
+    flip(true) Gas price: 0x7cffa6c09 Time delay: 0x60f2c Block delay: 0x2f71
+    flip(false) Gas price: 0x195c3a835 Time delay: 0x31ec8 Block delay: 0xddbd
+    flip(false) Gas price: 0x13c1042806 Time delay: 0x645f5 Block delay: 0xcc35
+    flip(true) Time delay: 0x8491c Block delay: 0x9d8c
+    flip(false) Gas price: 0xcbca867e9 Time delay: 0x8eff6 Block delay: 0x66d1
+    flip(false) Gas price: 0xebb382321 Time delay: 0x1729 Block delay: 0x2968
+    flip(true) Gas price: 0x5f411e35a Time delay: 0x140b Block delay: 0x3352
+    flip(false) Gas price: 0x54800770 Time delay: 0x72985 Block delay: 0x9f5f
+    flip(false) Time delay: 0x3a4a1 Block delay: 0x3fa1
+    flip(false) Gas price: 0x105e0bea60 Time delay: 0x4a24e Block delay: 0xd67d
+
+
+Seed: -8444026910854199114
