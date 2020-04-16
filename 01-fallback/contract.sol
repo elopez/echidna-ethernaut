@@ -8,7 +8,7 @@ contract Fallback {
   mapping(address => uint) public contributions;
   address payable public owner;
 
-  constructor() public payable {
+  constructor() public {
     owner = msg.sender;
     contributions[msg.sender] = 1000 * (1 ether);
   }
@@ -40,13 +40,5 @@ contract Fallback {
   function() payable external {
     require(msg.value > 0 && contributions[msg.sender] > 0);
     owner = msg.sender;
-  }
-
-  function echidna_test_owner() public returns (bool) {
-    return owner == msg.sender;
-  }
-
-  function echidna_test_balance() public returns (bool) {
-    return address(this).balance >= 1000;
   }
 }
