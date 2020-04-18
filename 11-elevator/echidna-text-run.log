@@ -1,0 +1,7 @@
+Analyzing contract: <PATH>/11-elevator/test.sol:Test
+echidna_test_floor: failed!💥  
+  Call sequence:
+    pwn(0)
+
+
+Seed: -446585411585012958
