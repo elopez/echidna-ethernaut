@@ -4,8 +4,11 @@ import 'contract.sol';
 
 contract Test is Building {
   Elevator lift;
+  bool flipflop;
+
   constructor() public {
     lift = new Elevator();
+    flipflop = true;
   }
 
   function pwn(uint x) public {
@@ -13,7 +16,8 @@ contract Test is Building {
   }
 
   function isLastFloor(uint) public returns (bool) {
-    return true;
+    flipflop = !flipflop;
+    return flipflop;
   }
 
   function echidna_test_floor() public returns (bool) {
