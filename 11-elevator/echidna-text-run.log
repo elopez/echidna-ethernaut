@@ -1,7 +1,8 @@
 Analyzing contract: <PATH>/11-elevator/test.sol:Test
 echidna_test_floor: failed!💥  
   Call sequence:
+    isLastFloor_value([false, true, false, false, true])
     pwn(0)
 
 
-Seed: -446585411585012958
+Seed: -1662324238233560539
