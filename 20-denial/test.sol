@@ -4,10 +4,7 @@ import 'contract.sol';
 
 contract BusyLoop {
   function() payable external {
-    // Burn all gas?
-    uint c;
-    while (true)
-      c = c + 1;
+    assert(false);
   }
 }
 
