@@ -1,0 +1,4 @@
+testLimit: 500000
+sender: ["0x10000"]
+contractAddr: "0x1337"
+multi-abi: true
