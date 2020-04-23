@@ -12,14 +12,11 @@ contract BusyLoop {
 }
 
 contract Test is Denial {
-  constructor() public payable {}
+  BusyLoop bl;
 
-  function make_busyloop() public returns (address) {
-    return address(new BusyLoop());
-  }
-
-  function pwn() public {
-    //setWithdrawPartner(make_busyloop());
+  constructor() public payable {
+    // hint echidna it can use this contract addr
+    bl = new BusyLoop();
   }
 
   function echidna_test_balance() public returns (bool) {
