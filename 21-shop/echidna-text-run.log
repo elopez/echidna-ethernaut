@@ -1,0 +1,7 @@
+Analyzing contract: <PATH>/test.sol:Test
+echidna_test_purchase: failed!💥  
+  Call sequence:
+    try_buy()
+
+
+Seed: -1191608758529855575
