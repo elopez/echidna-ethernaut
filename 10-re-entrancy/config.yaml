@@ -1,0 +1,3 @@
+testLimit: 500000
+sender: ["0x10000"]
+balanceContract: 30000000000000000000
