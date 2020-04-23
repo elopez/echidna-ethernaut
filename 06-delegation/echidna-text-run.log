@@ -1,0 +1,7 @@
+Analyzing contract: <PATH>/06-delegation/test.sol:Test
+echidna_test_owner: failed!💥  
+  Call sequence:
+    pwn2own()
+
+
+Seed: 1846113540624574314
