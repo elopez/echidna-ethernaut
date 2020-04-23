@@ -1,0 +1,7 @@
+Analyzing contract: <PATH>/20-denial/test.sol:Test
+echidna_test_balance: failed!💥  
+  Call sequence:
+    setWithdrawPartner(0x423ecb4c8e3daf34776dbacd1c269757528c437a)
+
+
+Seed: 711889394505891857
