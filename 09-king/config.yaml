@@ -1,0 +1,6 @@
+testLimit: 500000
+sender: ["0x10000"]
+balanceContract: 300000000000
+multi-abi: true
+contractAddr: "0x1337"
+propMaxGas: 500000
