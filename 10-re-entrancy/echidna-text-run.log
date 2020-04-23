@@ -1,0 +1,8 @@
+Analyzing contract: <PATH>/10-re-entrancy/test.sol:Test
+echidna_test_balance: failed!💥  
+  Call sequence:
+    donate()
+    pwn()
+
+
+Seed: 4528277159182020802
