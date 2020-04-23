@@ -1,0 +1,8 @@
+Analyzing contract: <PATH>/15-naught-coin/test.sol:Test
+echidna_test_balance: failed!💥  
+  Call sequence:
+    increaseAllowance(0x10000,31535999)
+    transferFrom(0x10000,0xa329c0648769a73afac7f9381e08fb43dbea72,999999)
+
+
+Seed: -4067137827578792098
