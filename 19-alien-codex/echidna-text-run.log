@@ -1,0 +1,9 @@
+Analyzing contract: <PATH>/19-alien-codex/test.sol:Test
+echidna_test_owner: failed!💥  
+  Call sequence:
+    make_contact()
+    retract()
+    revise(35707666377435648211887908874984608119992236509074197713628505308453184860938,"\141\154:\240<\227\249I\DC4\162\214\209\201\FS\247\205\160P\171ua\135\157\143\253\155\232lv\171;\174")
+
+
+Seed: -4937086315151605598
