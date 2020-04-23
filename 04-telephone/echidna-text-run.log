@@ -1,0 +1,7 @@
+Analyzing contract: <PATH>/04-telephone/test.sol:Test
+echidna_test_owner: failed!💥  
+  Call sequence:
+    pwn()
+
+
+Seed: -4111434391266782487
