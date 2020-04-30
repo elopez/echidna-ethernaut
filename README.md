@@ -24,11 +24,11 @@ using Echidna, and to help improve the tool.
 11 | Elevator       | Yes    | :muscle: |
 12 | Privacy        | N/A    | -        |
 13 | Gatekeeper One | Yes    | :muscle: |
-14 | Gatekeeper Two | Maybe  | :mag:    | TBD
-15 | Naught Coin    |        | -        |
+14 | Gatekeeper Two | Yes    | :mag:    | crytic/echidna#453
+15 | Naught Coin    | Yes    | :muscle: |
 16 | Preservation   |        | -        |
-17 | Recovery       |        | -        |
-18 | MagicNumber    |        | -        |
+17 | Recovery       | N/A    | -        |
+18 | MagicNumber    | N/A    | -        |
 19 | Alien Codex    |        | -        | crytic/echidna#440, crytic/slither#450
 20 | Denial         | Yes    | :muscle: | crytic/echidna#442
 21 | Shop           | Yes    | :mag:    | crytic/echidna#446
