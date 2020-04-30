@@ -1,4 +1,7 @@
 Analyzing contract: <PATH>/14-gatekeeper-two/test.sol:Test
-echidna_test_entrant: failed with no transactions made ⁉️  
+echidna_test_entrant: failed!💥  
+  Call sequence:
+    pwn()
 
-Seed: -8746030970479511250
+
+Seed: -1294329831068123027
