@@ -14,17 +14,17 @@ using Echidna, and to help improve the tool.
 01 | Fallback       | Yes    | :muscle: |
 02 | Fallout        | Yes    | :muscle: |
 03 | Coin Flip      | Yes    | :muscle: |
-04 | Telephone      |        | -        |
+04 | Telephone      | Yes    | :mag:    |
 05 | Token          | Yes    | :muscle: |
-06 | Delegation     |        | -        |
+06 | Delegation     | Yes    | :mag:    |
 07 | Force          | Yes    | :mag:    |
-08 | Vault          |        | -        |
+08 | Vault          | N/A    | -        |
 09 | King           |        | -        |
-10 | Re-entrancy    |        | -        |
+10 | Re-entrancy    | Yes    | :mag:    |
 11 | Elevator       | Yes    | :muscle: |
-12 | Privacy        |        | -        |
-13 | Gatekeeper One |        | -        |
-14 | Gatekeeper Two |        | -        |
+12 | Privacy        | N/A    | -        |
+13 | Gatekeeper One | Yes    | :muscle: |
+14 | Gatekeeper Two | Maybe  | :mag:    | TBD
 15 | Naught Coin    |        | -        |
 16 | Preservation   |        | -        |
 17 | Recovery       |        | -        |
