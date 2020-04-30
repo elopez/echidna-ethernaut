@@ -1,6 +1,9 @@
 [submodule "openzeppelin-solidity"]
 	path = openzeppelin-solidity
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
+[submodule "15-naught-coin/openzeppelin-solidity"]
+	path = 15-naught-coin/openzeppelin-solidity
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
 [submodule "19-alien-codex/openzeppelin-solidity"]
 	path = 19-alien-codex/openzeppelin-solidity
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
